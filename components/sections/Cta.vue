@@ -26,7 +26,7 @@
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente
                         delectus architecto ullam earum
                     </p>
-                    <div class="mx-auto max-w-md sm-max-w-xl flex justify-center">
+                    <!-- <div class="mx-auto max-w-md sm-max-w-xl flex justify-center">
                         <nuxt-link to="#" 
                          border="~ transparent hover:emerald7"
                                 un-after="absolute content-empty inset-x-0 aspect-square scale-0 op-70 origin-center duration-300 ease-linear rd-full top-0 left-0 bg-emerald7 hover:op-100 hover:scale-[2.5]"
@@ -35,7 +35,7 @@
                                 Get in touch
                             </span>
                         </nuxt-link>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>

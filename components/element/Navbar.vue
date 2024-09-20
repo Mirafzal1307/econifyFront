@@ -62,22 +62,22 @@ const navIsOpen = useState('navIsOpen', () => false)
 const navItems = [
     {
         id: 1,
-        text: "Home",
+        text: "Blog",
         href: "/",
     },
     {
         id: 2,
-        text: "Services",
+        text: "Projects",
         href: "/",
     },
     {
         id: 3,
-        text: "About us",
+        text: "About",
         href: "/",
     },
     {
         id: 4,
-        text: "Features",
+        text: "Newsletter",
         href: "/",
     }
 ]

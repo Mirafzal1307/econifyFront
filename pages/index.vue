@@ -1,17 +1,18 @@
 <template>
     <main class="flex-1">
         <SectionsHeroSection/>
-        <SectionsSocialProuf/>
-        <SectionsLogoCloud/>
+        <!-- <SectionsSocialProuf/> -->
+        <!-- <SectionsLogoCloud/> -->
         <SectionsServices/>
-        <SectionsAboutContent/>
+        <SectionsAllPosts/>
+        <!-- <SectionsAboutContent/> -->
         <SectionsCta/>
     </main>
 </template>
 
 <script lang="ts" setup>
 useHead({
-  title: 'Agence X Template built with UnifyUI',
+  title: 'Econify',
   meta: [
     {
       name: 'description',

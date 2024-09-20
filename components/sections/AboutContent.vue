@@ -1,4 +1,4 @@
-<template>
+ <template>
     <section class="py24">
         <div class="max-w-7xl mx-auto px-5 sm-px-10 md-px-12 lg-px-5 flex flex-col md-flex-row gap16">
             <div class="flex md-flex-1">

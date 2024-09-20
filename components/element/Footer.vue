@@ -87,25 +87,25 @@ const footerLinks = [
                 class="w-full grid grid-cols-2 lg-grid-cols-4 gap-8 pb4">
                 <div class="flex">
                     <nuxt-link to="#">
-                        <span
-                            class="text-transparent bg-clip-text bg-gradient-to-tr from-emerald-8 to-teal-4 font-bold text-2xl">U</span>
-                        Unify-Ui
+                        <!-- <span
+                            class="text-transparent bg-clip-text bg-gradient-to-tr from-emerald-8 to-teal-4 font-bold text-2xl">U</span> -->
+                        Econify
                     </nuxt-link>
                 </div>
                 <div class="flex items-center space-x-2">
                     <span i-carbon-location flex text-xl></span>
-                    <span>Lubumbashi-RDC</span>
+                    <span>Uzbekistan</span>
                 </div>
                 <div class="flex items-center space-x-2">
                     <span i-carbon-phone flex text-xl></span>
-                    <span>+243 ......</span>
+                    <span>+998 ......</span>
                 </div>
                 <div class="flex items-center space-x-2">
                     <span i-carbon-email flex text-2xl></span>
-                    <span>info@dcssarl</span>
+                    <span>econify@gmail.com</span>
                 </div>
             </div>
-            <nav text="neutral-7 dark:neutral-3" class="grid grid-cols-2 md-grid-cols-3 lg-grid-cols-4 gap-y-10 gap-8 py-10">
+            <!-- <nav text="neutral-7 dark:neutral-3" class="grid grid-cols-2 md-grid-cols-3 lg-grid-cols-4 gap-y-10 gap-8 py-10">
                 <div v-for="footerItem in footerLinks" :key="footerItem.id" class="space-y-5">
                     <h1 text="lg neutral-9 dark:neutral-1" class="font-semibold">
                         {{ footerItem.title }}
@@ -141,12 +141,12 @@ const footerLinks = [
                         </div>
                     </form>
                 </div>
-            </nav>
+            </nav> -->
 
             <div border-t="~ neutral-2 dark:neutral-8" un-text="neutral-7 dark:neutral-3"
                 class="w-full flex flex-col md-flex-row gap-4 items-center sm-justify-between py3">
                 <div text="center sm:left" class="flex sm-min-w-max">
-                    <p> &copy; 2023 UnifyUI. All right reserved </p>
+                    <p> &copy; 2024 Econify. All right reserved </p>
                 </div>
                 <div class="flex justify-center sm-justify-end w-full gap-3">
                     <nuxt-link to="#" aria-label="social link">

@@ -2,100 +2,184 @@
     <section py-20>
         <div px="5 sm:10 md:12 lg:5" class="max-w-7xl mx-auto flex flex-col items-start gap-10 xl-gap-14">
             <div class="text-center max-w-3xl mx-auto space-y-4">
-                <h1 text="4xl neutral-9 dark:white" class="font-semibold">
-                    What we offer
+                <h1 text="md:4xl 3xl neutral-9 dark:white" class="font-semibold">
+                    Recent blog posts
                 </h1>
-                <p text="neutral-7 dark:neutral-3">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                </p>
             </div>
-            <div class="grid sm-grid-cols-2 lg-grid-cols-3 gap-6 lg-gap-8">
-                <div p="5 sm:6 lg:8" border="~ neutral-2 dark:neutral-8" bg="neutral-1 dark:neutral-9" class="rd-3xl relative overflow-hidden">
-                    <div bg="neutral-2 dark:neutral-8" text="neutral-9 dark:white" class="rd-xl p3 w-max relative">
-                        <span i-carbon-tag-edit flex text-2xl></span> 
+            <div class="grid gap-6 grid-cols-12">
+                <div
+                    class="p-6 bg-neutral-1 dark:bg-neutral-9 rounded-3xl border border-neutral-2 dark:border-neutral-8 shadow-lg relative overflow-hidden  col-span-12 lg:col-span-6 md:flex md:gap-6 lg:flex-col lg:gap-2 ">
+                    <!-- Image Section -->
+                    <img src="https://img.freepik.com/premium-photo/beautiful-woman-is-seen-holding-camera-while-strolling-sea_969100-393.jpg"
+                        alt="UX review presentations" class="w-full md:w-30% lg:w-full h-64 md:h-full lg:h-58 object-cover rounded-lg">
+                    <div class="flex flex-col md:justify-between">
+                        <div>
+                            <!-- Date Section -->
+                            <div class="text-sm mt-4 text-blue-500 dark:text-blue-400 ">
+                                Sunday, 1 Jan 2023
+                            </div>
+
+                            <!-- Title Section -->
+                            <h2 class="text-2xl font-semibold text-neutral-9 dark:text-white mt-2">
+                                UX review presentations
+                                <a href="#" class="inline-block align-middle ml-2">
+                                    <span class="i-carbon-external-link flex text-lg"></span>
+                                </a>
+                            </h2>
+
+                            <!-- Description Section -->
+                            <p class="text-neutral-7 dark:text-neutral-3 mt-2">
+                                How do you create compelling presentations that wow your colleagues and impress your
+                                managers?
+                            </p>
+
+                        </div>
+
+                        <!-- Tags Section -->
+                        <div class="mt-4 flex space-x-2 ">
+                            <span
+                                class="px-3 py-1 text-sm rounded-full bg-purple-100 text-purple-700 dark:bg-purple-900 dark:text-purple-300">
+                                Design
+                            </span>
+                            <span
+                                class="px-3 py-1 text-sm rounded-full bg-blue-100 text-blue-700 dark:bg-blue-900 dark:text-blue-300">
+                                Research
+                            </span>
+
+                        </div>
                     </div>
-                    <div class="mt6 space-y-4 relative">
-                        <h2 text="lg md:xl neutral-9 dark:neutral-1" class="font-semibold">
-                            Social media marketing
-                        </h2>
-                        <p text="neutral-7 dark:neutral-3">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti qui soluta cupiditate
-                        </p>
-                    </div>
-                    <span class="absolute w32 aspect-square -bottom-16 -right-16 bg-emerald-6/10 rd-full"></span>
+
                 </div>
-                <div p="5 sm:6 lg:8" border="~ neutral-2 dark:neutral-8" bg="neutral-1 dark:neutral-9" class="rd-3xl relative overflow-hidden">
-                    <div bg="neutral-2 dark:neutral-8" text="neutral-9 dark:white" class="rd-xl p3 w-max relative">
-                        <span i-carbon-email flex text-2xl></span> 
+                <div class="lg:flex lg:flex-col flex flex-col gap-6 col-span-12 col-span-6">
+                    <div
+                        class="p-6 bg-neutral-1 dark:bg-neutral-9 rounded-3xl border border-neutral-2 dark:border-neutral-8 shadow-lg relative overflow-hidden  col-span-12 md:flex md:gap-6 ">
+                        <!-- Image Section -->
+                        <img src="https://img.freepik.com/premium-photo/beautiful-woman-is-seen-holding-camera-while-strolling-sea_969100-393.jpg"
+                            alt="UX review presentations"
+                            class="w-full md:w-30% h-64 md:h-full  object-cover rounded-lg">
+                        <div class="flex flex-col md:justify-between">
+                            <div>
+                                <!-- Date Section -->
+                                <div class="text-sm mt-4 text-blue-500 dark:text-blue-400 ">
+                                    Sunday, 1 Jan 2023
+                                </div>
+
+                                <!-- Title Section -->
+                                <h2 class="text-2xl lg:text-xl font-semibold text-neutral-9 dark:text-white mt-2">
+                                    UX review presentations
+                                   
+                                </h2>
+
+                                <!-- Description Section -->
+                                <p class="text-neutral-7 dark:text-neutral-3 mt-2">
+                                    How do you create compelling presentations that wow ?...
+                                </p>
+
+                            </div>
+
+                            <!-- Tags Section -->
+                            <div class="mt-4 flex space-x-2 ">
+                                <span
+                                    class="px-3 py-1 text-sm rounded-full bg-purple-100 text-purple-700 dark:bg-purple-900 dark:text-purple-300">
+                                    Design
+                                </span>
+                                <span
+                                    class="px-3 py-1 text-sm rounded-full bg-blue-100 text-blue-700 dark:bg-blue-900 dark:text-blue-300">
+                                    Research
+                                </span>
+
+                            </div>
+                        </div>
+
                     </div>
-                    <div class="mt6 space-y-4 relative">
-                        <h2 text="lg md:xl neutral-9 dark:neutral-1" class="font-semibold">
-                            Email marketing
-                        </h2>
-                        <p text="neutral-7 dark:neutral-3">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti qui soluta cupiditate
-                        </p>
+                    <div
+                        class="p-6 bg-neutral-1 dark:bg-neutral-9 rounded-3xl border border-neutral-2 dark:border-neutral-8 shadow-lg relative overflow-hidden  col-span-12 md:flex md:gap-6 ">
+                        <!-- Image Section -->
+                        <img src="https://img.freepik.com/premium-photo/beautiful-woman-is-seen-holding-camera-while-strolling-sea_969100-393.jpg"
+                            alt="UX review presentations"
+                            class="w-full md:w-30% h-64 md:h-full object-cover rounded-lg">
+                        <div class="flex flex-col md:justify-between">
+                            <div>
+                                <!-- Date Section -->
+                                <div class="text-sm mt-4 text-blue-500 dark:text-blue-400 ">
+                                    Sunday, 1 Jan 2023
+                                </div>
+
+                                <!-- Title Section -->
+                                <h2 class="text-2xl lg:text-xl font-semibold text-neutral-9 dark:text-white mt-2">
+                                    UX review presentations
+                                    <a href="#" class="inline-block align-middle ml-2">
+                                        <span class="i-carbon-external-link flex text-lg"></span>
+                                    </a>
+                                </h2>
+
+                                <!-- Description Section -->
+                                <p class="text-neutral-7 dark:text-neutral-3 mt-2">
+                                    How do you create compelling presentations that wow ?..
+                                </p>
+
+                            </div>
+
+                            <!-- Tags Section -->
+                            <div class="mt-4 flex space-x-2 ">
+                                <span
+                                    class="px-3 py-1 text-sm rounded-full bg-purple-100 text-purple-700 dark:bg-purple-900 dark:text-purple-300">
+                                    Design
+                                </span>
+                                <span
+                                    class="px-3 py-1 text-sm rounded-full bg-blue-100 text-blue-700 dark:bg-blue-900 dark:text-blue-300">
+                                    Research
+                                </span>
+
+                            </div>
+                        </div>
+
                     </div>
-                    <span class="absolute w32 aspect-square -bottom-16 -right-16 bg-emerald-6/10 rd-full"></span>
                 </div>
-                <div p="5 sm:6 lg:8" border="~ neutral-2 dark:neutral-8" bg="neutral-1 dark:neutral-9" class="rd-3xl relative overflow-hidden">
-                    <div bg="neutral-2 dark:neutral-8" text="neutral-9 dark:white" class="rd-xl p3 w-max relative">
-                        <span i-carbon-logo-glassdoor flex text-2xl></span>  
+                <div
+                    class="p-6 bg-neutral-1 dark:bg-neutral-9 rounded-3xl border border-neutral-2 dark:border-neutral-8 shadow-lg relative overflow-hidden  col-span-12 md:flex md:gap-6 ">
+                    <!-- Image Section -->
+                    <img src="https://img.freepik.com/premium-photo/beautiful-woman-is-seen-holding-camera-while-strolling-sea_969100-393.jpg"
+                        alt="UX review presentations" class="w-full md:w-30% h-64 md:h-full object-cover rounded-lg">
+                    <div class="flex flex-col md:justify-between">
+                        <div>
+                            <!-- Date Section -->
+                            <div class="text-sm mt-4 text-blue-500 dark:text-blue-400 ">
+                                Sunday, 1 Jan 2023
+                            </div>
+
+                            <!-- Title Section -->
+                            <h2 class="text-2xl font-semibold text-neutral-9 dark:text-white mt-2">
+                                UX review presentations
+                                <a href="#" class="inline-block align-middle ml-2">
+                                    <span class="i-carbon-external-link flex text-lg"></span>
+                                </a>
+                            </h2>
+
+                            <!-- Description Section -->
+                            <p class="text-neutral-7 dark:text-neutral-3 mt-2">
+                                How do you create compelling presentations that wow your colleagues and impress your
+                                managers?
+                            </p>
+
+                        </div>
+
+                        <!-- Tags Section -->
+                        <div class="mt-4 flex space-x-2 ">
+                            <span
+                                class="px-3 py-1 text-sm rounded-full bg-purple-100 text-purple-700 dark:bg-purple-900 dark:text-purple-300">
+                                Design
+                            </span>
+                            <span
+                                class="px-3 py-1 text-sm rounded-full bg-blue-100 text-blue-700 dark:bg-blue-900 dark:text-blue-300">
+                                Research
+                            </span>
+
+                        </div>
                     </div>
-                    <div class="mt6 space-y-4 relative">
-                        <h2 text="lg md:xl neutral-9 dark:neutral-1" class="font-semibold">
-                            Social media marketing
-                        </h2>
-                        <p text="neutral-7 dark:neutral-3">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti qui soluta cupiditate
-                        </p>
-                    </div>
-                    <span class="absolute w32 aspect-square -bottom-16 -right-16 bg-emerald-6/10 rd-full"></span>
-                </div>
-                <div p="5 sm:6 lg:8" border="~ neutral-2 dark:neutral-8" bg="neutral-1 dark:neutral-9" class="rd-3xl relative overflow-hidden">
-                    <div bg="neutral-2 dark:neutral-8" text="neutral-9 dark:white" class="rd-xl p3 w-max relative">
-                        <span i-carbon-tag-edit flex text-2xl></span>  
-                    </div>
-                    <div class="mt6 space-y-4 relative">
-                        <h2 text="lg md:xl neutral-9 dark:neutral-1" class="font-semibold">
-                            Social media marketing
-                        </h2>
-                        <p text="neutral-7 dark:neutral-3">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti qui soluta cupiditate
-                        </p>
-                    </div>
-                    <span class="absolute w32 aspect-square -bottom-16 -right-16 bg-emerald-6/10 rd-full"></span>
-                </div>
-                <div p="5 sm:6 lg:8" border="~ neutral-2 dark:neutral-8" bg="neutral-1 dark:neutral-9" class="rd-3xl relative overflow-hidden">
-                    <div bg="neutral-2 dark:neutral-8" text="neutral-9 dark:white" class="rd-xl p3 w-max relative">
-                        <span i-carbon-tag-edit flex text-2xl></span>  
-                    </div>
-                    <div class="mt6 space-y-4 relative">
-                        <h2 text="lg md:xl neutral-9 dark:neutral-1" class="font-semibold">
-                            Email marketing
-                        </h2>
-                        <p text="neutral-7 dark:neutral-3">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti qui soluta cupiditate
-                        </p>
-                    </div>
-                    <span class="absolute w32 aspect-square -bottom-16 -right-16 bg-emerald-6/10 rd-full"></span>
-                </div>
-                <div p="5 sm:6 lg:8" border="~ neutral-2 dark:neutral-8" bg="neutral-1 dark:neutral-9" class="rd-3xl relative overflow-hidden">
-                    <div bg="neutral-2 dark:neutral-8" text="neutral-9 dark:white" class="rd-xl p3 w-max relative">
-                        <span i-carbon-tag-edit flex text-2xl></span>  
-                    </div>
-                    <div class="mt6 space-y-4 relative">
-                        <h2 text="lg md:xl neutral-9 dark:neutral-1" class="font-semibold">
-                            Social media marketing
-                        </h2>
-                        <p text="neutral-7 dark:neutral-3">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti qui soluta cupiditate
-                        </p>
-                    </div>
-                    <span class="absolute w32 aspect-square -bottom-16 -right-16 bg-emerald-6/10 rd-full"></span>
+
                 </div>
             </div>
- 
         </div>
     </section>
 </template>
