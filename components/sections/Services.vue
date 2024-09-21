@@ -50,7 +50,7 @@
                     </div>
 
                 </div>
-                <div class="lg:flex lg:flex-col flex flex-col gap-6 col-span-12 col-span-6">
+                <div class="lg:flex lg:flex-col flex flex-col gap-6 col-span-12 lg:col-span-6">
                     <div
                         class="p-6 bg-neutral-1 dark:bg-neutral-9 rounded-3xl border border-neutral-2 dark:border-neutral-8 shadow-lg relative overflow-hidden  col-span-12 md:flex md:gap-6 ">
                         <!-- Image Section -->
