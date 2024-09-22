@@ -7,11 +7,14 @@
                 </h1>
             </div>
             <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-                <div v-for="index in 6" :key="index"
-                    class="p-6 bg-neutral-1 dark:bg-neutral-9 rounded-3xl border border-neutral-2 dark:border-neutral-8 shadow-lg relative overflow-hidden md:flex md:flex-col  ">
-                    <!-- Image Section -->
+
+
+                <!-- Image Section -->
+                <nuxt-link v-for="index in 6" :key="index" :to="`/posts/${index}`"
+                    class="p-6 bg-neutral-1 dark:bg-neutral-9 rounded-3xl border border-neutral-2 dark:border-neutral-8 shadow-lg relative overflow-hidden md:flex md:flex-col ">
                     <img src="https://img.freepik.com/premium-photo/beautiful-woman-is-seen-holding-camera-while-strolling-sea_969100-393.jpg"
-                        alt="UX review presentations" class="w-full md:w-full lg:w-full h-64 md:h-full lg:h-58 object-cover rounded-lg">
+                        alt="UX review presentations"
+                        class="w-full md:w-full lg:w-full h-64 md:h-full lg:h-58 object-cover rounded-lg">
                     <div class="flex flex-col md:justify-between">
                         <div>
                             <!-- Date Section -->
@@ -29,7 +32,8 @@
 
                             <!-- Description Section -->
                             <p class="text-neutral-7 dark:text-neutral-3 mt-2">
-                                How do you create compelling presentations that wow your colleagues and impress your
+                                How do you create compelling presentations that wow your colleagues and impress
+                                your
                                 managers?
                             </p>
 
@@ -48,8 +52,9 @@
 
                         </div>
                     </div>
+                </nuxt-link>
 
-                </div>
+
             </div>
         </div>
     </section>

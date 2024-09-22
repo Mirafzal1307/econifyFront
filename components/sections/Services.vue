@@ -7,11 +7,12 @@
                 </h1>
             </div>
             <div class="grid gap-6 grid-cols-12">
-                <div
+                <nuxt-link to="/posts/1"
                     class="p-6 bg-neutral-1 dark:bg-neutral-9 rounded-3xl border border-neutral-2 dark:border-neutral-8 shadow-lg relative overflow-hidden  col-span-12 lg:col-span-6 md:flex md:gap-6 lg:flex-col lg:gap-2 ">
                     <!-- Image Section -->
                     <img src="https://img.freepik.com/premium-photo/beautiful-woman-is-seen-holding-camera-while-strolling-sea_969100-393.jpg"
-                        alt="UX review presentations" class="w-full md:w-30% lg:w-full h-64 md:h-full lg:h-58 object-cover rounded-lg">
+                        alt="UX review presentations"
+                        class="w-full md:w-30% lg:w-full h-64 md:h-full lg:h-58 object-cover rounded-lg">
                     <div class="flex flex-col md:justify-between">
                         <div>
                             <!-- Date Section -->
@@ -49,9 +50,10 @@
                         </div>
                     </div>
 
-                </div>
+
+                </nuxt-link>
                 <div class="lg:flex lg:flex-col flex flex-col gap-6 col-span-12 lg:col-span-6">
-                    <div
+                    <nuxt-link to="/posts/2"
                         class="p-6 bg-neutral-1 dark:bg-neutral-9 rounded-3xl border border-neutral-2 dark:border-neutral-8 shadow-lg relative overflow-hidden  col-span-12 md:flex md:gap-6 ">
                         <!-- Image Section -->
                         <img src="https://img.freepik.com/premium-photo/beautiful-woman-is-seen-holding-camera-while-strolling-sea_969100-393.jpg"
@@ -67,7 +69,7 @@
                                 <!-- Title Section -->
                                 <h2 class="text-2xl lg:text-xl font-semibold text-neutral-9 dark:text-white mt-2">
                                     UX review presentations
-                                   
+
                                 </h2>
 
                                 <!-- Description Section -->
@@ -91,8 +93,8 @@
                             </div>
                         </div>
 
-                    </div>
-                    <div
+                    </nuxt-link>
+                    <nuxt-link to="/posts/3"
                         class="p-6 bg-neutral-1 dark:bg-neutral-9 rounded-3xl border border-neutral-2 dark:border-neutral-8 shadow-lg relative overflow-hidden  col-span-12 md:flex md:gap-6 ">
                         <!-- Image Section -->
                         <img src="https://img.freepik.com/premium-photo/beautiful-woman-is-seen-holding-camera-while-strolling-sea_969100-393.jpg"
@@ -134,9 +136,9 @@
                             </div>
                         </div>
 
-                    </div>
+                    </nuxt-link>
                 </div>
-                <div
+                <nuxt-link to="/posts/4"
                     class="p-6 bg-neutral-1 dark:bg-neutral-9 rounded-3xl border border-neutral-2 dark:border-neutral-8 shadow-lg relative overflow-hidden  col-span-12 md:flex md:gap-6 ">
                     <!-- Image Section -->
                     <img src="https://img.freepik.com/premium-photo/beautiful-woman-is-seen-holding-camera-while-strolling-sea_969100-393.jpg"
@@ -178,7 +180,7 @@
                         </div>
                     </div>
 
-                </div>
+                </nuxt-link>
             </div>
         </div>
     </section>

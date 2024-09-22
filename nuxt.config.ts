@@ -3,7 +3,8 @@ export default defineNuxtConfig({
   modules:[
     '@unocss/nuxt',
     '@nuxtjs/color-mode',
-    '@nuxt/image'
+    '@nuxt/image',
+    'nuxt-swiper'
   ],
   colorMode: {
     preference: 'system', 
@@ -12,4 +13,5 @@ export default defineNuxtConfig({
     classSuffix: '',
     storageKey: 'app-theme'
   },
+
 })
