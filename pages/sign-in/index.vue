@@ -8,32 +8,32 @@
             <form @submit.prevent="onSubmit">
                 <!-- Email Input -->
                 <div class="mb-4">
-                    <label for="email"
-                        class="block text-sm font-medium text-neutral-9 dark:text-neutral-300 mb-2">Email</label>
+                    <label for="email" class="block text-sm font-medium text-neutral-9 dark:text-neutral-300 mb-2">Email</label>
                     <input v-model="email" type="email" id="email"
-                        class="w-full px-4 py-2 border rounded-lg bg-neutral-2 dark:bg-neutral-7 text-neutral-9 dark:text-white border-neutral-3 dark:border-neutral-6 focus:outline-none focus:ring-2 focus:ring-emerald-600"
-                        placeholder="Enter your email" />
+                           class="w-full px-4 py-2 border rounded-lg bg-neutral-2 dark:bg-neutral-7 text-neutral-9 dark:text-white border-neutral-3 dark:border-neutral-6 focus:outline-none focus:ring-2 focus:ring-emerald-600"
+                           placeholder="Enter your email" />
                     <p v-if="emailError" class="text-sm text-red-500 mt-1">{{ emailError }}</p>
                 </div>
 
                 <!-- Password Input -->
                 <div class="mb-6">
-                    <label for="password"
-                        class="block text-sm font-medium text-neutral-9 dark:text-neutral-300 mb-2">Password</label>
+                    <label for="password" class="block text-sm font-medium text-neutral-9 dark:text-neutral-300 mb-2">Password</label>
                     <input v-model="password" type="password" id="password"
-                        class="w-full px-4 py-2 border rounded-lg bg-neutral-2 dark:bg-neutral-7 text-neutral-9 dark:text-white border-neutral-3 dark:border-neutral-6 focus:outline-none focus:ring-2 focus:ring-emerald-600"
-                        placeholder="Enter your password" />
+                           class="w-full px-4 py-2 border rounded-lg bg-neutral-2 dark:bg-neutral-7 text-neutral-9 dark:text-white border-neutral-3 dark:border-neutral-6 focus:outline-none focus:ring-2 focus:ring-emerald-600"
+                           placeholder="Enter your password" />
                     <p v-if="passwordError" class="text-sm text-red-500 mt-1">{{ passwordError }}</p>
                 </div>
 
                 <!-- Sign In Button -->
                 <div>
                     <button type="submit"
-                        class="w-full px-4 py-2 light:bg-emerald-600 text-white dark:bg-emerald-600 dark:text-white hover:bg-emerald-700 hover:dark:bg-emerald-700 rounded-lg font-medium focus:outline-none focus:ring-2 focus:ring-emerald-500">
+                            class="w-full px-4 py-2 bg-emerald-600 text-white dark:bg-emerald-600 dark:text-white hover:bg-emerald-700 hover:dark:bg-emerald-700 rounded-lg font-medium focus:outline-none focus:ring-2 focus:ring-emerald-500">
                         Sign In
                     </button>
-
                 </div>
+
+                <!-- Authentication Message -->
+                <p v-if="authMessage" class="text-sm mt-4" :class="authSuccess ? 'text-green-500' : 'text-red-500'">{{ authMessage }}</p>
             </form>
         </div>
     </div>
@@ -46,11 +46,14 @@ const email = ref('')
 const password = ref('')
 const emailError = ref('')
 const passwordError = ref('')
+const authMessage = ref('')
+const authSuccess = ref(false)
 
 const onSubmit = () => {
     // Reset error messages
     emailError.value = ''
     passwordError.value = ''
+    authMessage.value = ''
 
     // Basic Validation
     if (!email.value) {
@@ -65,10 +68,16 @@ const onSubmit = () => {
         passwordError.value = 'Password must be at least 6 characters'
     }
 
-    // If both email and password are valid, proceed
+    // Mock Authentication Check
     if (!emailError.value && !passwordError.value) {
-        // Handle successful sign in (add your logic here)
-        alert('Sign In successful!')
+        if (email.value === 'test@example.com' && password.value === 'password123') {
+            authMessage.value = 'Sign In successful!'
+            authSuccess.value = true
+            // Redirect or proceed with other actions here
+        } else {
+            authMessage.value = 'Invalid credentials, please try again.'
+            authSuccess.value = false
+        }
     }
 }
 
@@ -79,5 +88,5 @@ const isValidEmail = (email) => {
 </script>
 
 <style scoped>
-/* You can customize the styles further */
+/* Customize styles */
 </style>
